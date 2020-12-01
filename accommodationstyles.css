@@ -1,0 +1,252 @@
+body {
+  background-image: url("images/accommodations.png");
+  background-position: 100% -120px;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Navbar Styles */
+
+.navbar {
+  opacity: .85;
+  position: absolute;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.navimg {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar-brand {
+  padding-left: 7px;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navitems {
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+/* Page Sections */
+h1 {
+  font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Cormorant Unicase', serif;
+}
+
+h2 {
+  font-weight: 700;
+}
+
+h3 {
+  font-weight: 700;
+}
+
+p, ul {
+  font-family: 'Cormorant Garmond', serif;
+}
+
+.toptitle {
+  color: white;
+text-shadow: 2px 2px 3px black, 3px 3px 3px black;
+  text-align: center;
+  padding-top: 20%;
+  width: 100%;
+}
+.top {
+  min-width: 100vw;
+  min-height: 70vh;
+
+}
+
+.middle {
+  min-width: 100%;
+  background-color: white;
+  min-height: 100%;
+}
+
+.middle1, .middle2 {
+  width: 65%;
+  margin: auto;
+  text-align: center;
+}
+
+.middle1 {
+  padding-top: 4%
+}
+
+.middle2 {
+  padding-top: 2%;
+}
+
+.middle2 p {
+  padding-top: 4%;
+}
+
+.carousel {
+  width: 75%;
+  margin: auto;
+}
+
+
+
+.carousel-caption {
+  position: relative;
+  color: black;
+  width: 70%;
+  padding-top: 5%;
+}
+
+.carousel-caption h5, p {
+  padding: 0;
+  margin: 0;
+}
+
+.carousel-control-prev {
+top: -26%;
+}
+
+
+.carousel-control-next {
+  top: -26%;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    width: 40%;
+    height: 40%;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    width: 40%;
+    height: 40%;
+}
+
+.bottom {
+  width: 70%;
+  margin: auto;
+  padding-top: 4%;
+}
+
+.booknow {
+  text-align: center;
+  padding: 3% 0;
+}
+
+.btn {
+  font-family: 'Cormorant Unicase', serif;
+  font-weight: 700;
+  padding: 1% 3%;
+}
+
+
+
+
+/* Footer Styles */
+
+.footer {
+  position: relative;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #292b2c;
+}
+
+.footerlink {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black, 2px 2px 2px black;
+  color: white;
+}
+
+.footerlink:hover {
+  color: black;
+  text-shadow: 1px 1px 2px white;
+}
+
+
+
+/* Mobile View */
+
+@media only screen and (max-width: 600px) {
+
+  body {
+    background-image: url("images/accommodations.png");
+    background-position: 60% 0;
+    background-size: auto 70%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navimg {
+    width: 40px;
+    height: 26px;
+  }
+
+  .toptitle {
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    padding-top: 50%;
+    width: 100%;
+  }
+
+  h1 {
+      padding-top: 25%;
+      font-size: 2.5rem;
+    }
+
+  .middle1, .middle2 {
+    width: 85%;
+    margin: auto;
+    text-align: center;
+  }
+
+  .carousel {
+    width: 100%;
+    margin: auto;
+    padding-top: 5%;
+  }
+
+.carousel-caption h5 {
+  padding-top: 5%;
+}
+
+
+.bottom {
+  width: 85%;
+  padding-top: 10%;
+}
+
+.bottom h2 {
+  text-align: center;
+}
+
+.btn {
+  margin: 5% 0 5% 0;
+}
+
+  .footerlink {
+    font-size: .8rem;
+  }
+}

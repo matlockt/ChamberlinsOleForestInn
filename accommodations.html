@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Accommodations</title>
+
+  <!-- Bootstrap Stylesheet, Google Fonts, CSS, Favicon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Unicase:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="accommodationstyles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+  <script src="https://kit.fontawesome.com/c25a4f301d.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+  <!-- Navbar Logo and Title -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+    <img src="images/logo.png" class="d-inline-block align-top navimg" alt="" loading="lazy">
+    <a class="navbar-brand" href="index.html">Chamberlin's Ole Forest Inn</a>
+
+    <!-- Bootstrap Hamburger Button for Mobile/Tablet View-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="navitems collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="history.html">History <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dining
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="dining.html">Dining at the Inn</a>
+            <a class="dropdown-item" href="https://www.chamberlinsinn.com/files/Fulldinnermenu6.1.20.pdf" target="_blank">Dinner Menu</a>
+            <a class="dropdown-item" href="https://www.chamberlinsinn.com/files/PorchandPub6.1.20.pdf" target="_blank">Porch and Pub Menu</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Book Your Stay
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="accommodations.html">Our Accommodations</a>
+            <a class="dropdown-item" href="booknow.html">Book Now</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="events.html">Events <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contactus.html">Contact Us <span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Top Overlay Title -->
+  <div class="top">
+    <div class="toptitle">
+      <h1>Accommodations</h1>
+    </div>
+  </div>
+
+  <!-- Middle Section with Carousel of Room Options & Descriptions -->
+  <div class="middle">
+    <div class="middle1">
+      <h3>Chamberlin's Ole Forest Inn Accommodations</h3>
+      <p>Welcome to Chamberlin's Ole Forest Inn of Curtis, Michigan. We invite you to become one of the many people who return time and again to this premier lakeside country inn with 19th century charm and modern-day convenience. Wander up the
+        beautiful open stairway to the second and third floors, where twelve distinctive guest rooms await you with warm chenille spreads, country quilts and glorious antiques.
+      </p>
+    </div>
+
+    <div class="middle2">
+
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100 roomimg" src="images/Burnt_Island.jpg" alt="Burnt Island Room">
+            <div class="carousel-caption">
+              <h5>Burnt Island Room</h5>
+              <p>Welcome to the "Burnt Island" Room #4. This room is located on the 2nd floor and has a nice view of the lake. This room comes with 1 queen bed, sink in room and share bath. Starting at $95/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Charles_E_Miller_10.jpg" alt="Charles E Miller Room">
+            <div class="carousel-caption">
+              <h5>Charles E. Miller Room</h5>
+              <p>Welcome to the "Charles E. Miller" Room #10. Located on the 2nd floor, this room has 1 queen bed, private bath and a relaxing jacuzzi. Starting at $130/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Timber_Room_7.jpg" alt="Timber Room">
+            <div class="carousel-caption">
+              <h5>Timber Room</h5>
+              <p>Welcome to the "Timber" Room #7. This room is located on the 2nd floor and has 1 double bed and a shared bath. Starting at $65/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Gene_K_Feneley_15.jpg" alt="Gene K. Feneley Room">
+            <div class="carousel-caption">
+              <h5>Gene K. Feneley Room</h5>
+              <p>Welcome to the "Gene K. Feneley" Room #15. This cozy room is located on the 3rd floor and comes with 1 queen bed and a private bath. Starting at $120/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/charles8.jpg" alt="W.L. Curtis Room">
+            <div class="carousel-caption">
+              <h5>W.L. Curtis Room</h5>
+              <p>Welcome to the "W.L. Curtis" Room #8. This lovely room is located on the 2nd floor of the Inn. It comes with 1 queen bed, private bath and a relaxing jacuzzi. Starting at $130/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Whitefish_Lake_Room_1.jpg" alt="Whitefish Lake Room">
+            <div class="carousel-caption">
+              <h5>Whitefish Lake Room</h5>
+              <p>Welcome to the "Whitefish Lake" Room #1. Located on the 2nd floor of the Inn, this room has a great view of the lake. It also comes with 1 queen bed, sink in the room and a share bath. Starting at $95/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Round_Lake_Room_5.jpg" alt="Round Lake Room">
+            <div class="carousel-caption">
+              <h5>Round Lake Room</h5>
+              <p>Welcome to the "Round Lake" Room #5. This room is located on the 2nd floor and has a nice view of the lake. This room comes with 1 double bed, 1 twin bed, sink in room and share bath. Starting at $95/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/B.H._Cook_Room_2.jpg" alt="B.H. Cook Room">
+            <div class="carousel-caption">
+              <h5>B.H. Cook Room</h5>
+              <p>Welcome to the "B.H. Cook" Room #2. This room is located on the 2nd floor comes with 1 queen bed, futon and private bath. Starting at $120/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Big_Lake2_Room_3.jpg" alt="Big Lake Room">
+            <div class="carousel-caption">
+              <h5>Big Lake Room</h5>
+              <p>Welcome to the "Big Lake" Room #3. Located on the 2nd floor of the Inn, this room has a view of the lake. It also comes with 1 queen bed, sink in the room and a share bath. Starting at $95/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/ost.jpg" alt="Ostrander Room">
+            <div class="carousel-caption">
+              <h5>Ostrander Room</h5>
+              <p>Welcome to the "Ostrander" Room #6. Located on the 2nd floor of the Inn, this room comes with 2 double beds and private bath. Starting at $120/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/litz.jpg" alt="Litzinger Room">
+            <div class="carousel-caption">
+              <h5>Litzinger Room</h5>
+              <p>Welcome to the Litzinger Room #12. This lovely room is located on the 2nd floor with 2 double beds and private bath. Starting at $120/night.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/Chamberlin_Suite_14.jpg" alt="Chamberlin Suite Room">
+            <div class="carousel-caption">
+              <h5>Chamberlin Suite Room</h5>
+              <p>Welcome to the Chamberlin Suite Room #14. This larger lake view room is located on the 3rd floor with 1 queen bed, futon and private bath. Starting at $140/night.</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+      <p>Come wander, explore, socialize or find solitude ... relax and settle right into comfort.<br><br>
+
+        Wireless internet included!<br>
+        Room Rates: $95 - $140 per night (+ tax), and include a full breakfast.</p>
+
+    </div>
+
+    <!-- Bottom Section with Specials -->
+    <div class="bottom">
+
+      <h2>Specials</h2>
+      <p>* Please note May 1 - December 22 Our restaurant is open Wednesdays thru Sundays and Closed Mondays and Tuesdays for lunch and dinner. December 26 - March 24 Our restaurant is open everyday.
+      </p><br>
+
+      <h4>Romantic Rendezvous Package</h4>
+      <p>Available year round.<br>
+        2 nights lodging with full breakfast, 2 $30 dinner certificates, a bottle of champagne, and 2 desserts delivered to your room.
+        Package prices are for double occupancy and includes room tax. This offer is good for any of our rooms.</p><br>
+
+      <h4>Relax at the Inn Package</h4>
+      <p>Available May 1 - June 15 or October 18 thru December 22.<br>
+        2 nights lodging with full breakfast, 2 $30 dinner certificates, and 4 complimentary cocktails.
+        Chamberlin Suite - $320 / Room with private bath and jacuzzi - $300 / Room with private bath - $280 / Room with share bath - $245.
+        Package prices are for double occupancy and includes room tax.</p><br>
+
+      <h4>The Dine, Sleep, and Ride Package</h4>
+      <p>Available throughout the winter season, seven days a week based on availability.<br>
+        Nature’s Kennel Sled Dog Adventures & Chamberlin’s Ole Forest Inn invite you to Dine, Sleep and Ride with us!!
+        Stay with us, at beautiful Chamberlin’s Ole Forest Inn and take a ride with the Nature’s Kennel Iditarod sled dogs this winter. The Dine, Sleep, and Ride package for two includes a $50 dinner certificate, an overnight stay and full breakfast
+        at Chamberlin’s Ole Forest Inn in Curtis and a half day dog sled ride with the Nature’s Kennel sled dogs in McMillan. www.natureskennel.com
+        Cost is $465 (for two guests).
+        Please call 906-586-6000 or 800-292-0440 to make your reservation.
+        (One driver/one rider package is $550 and two driver package is $665).</p>
+      </p>
+    </div>
+
+    <div class="booknow">
+      <a class="btn btn-outline-dark btn-lg" href="/Users/tatummatlock/Desktop/Web Development/Chamberlin'sOleForestInn/booknow.html" role="button">Book Now!</a>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <h3>
+      <a class="footerlink" href="https://www.google.com/maps/place/Chamberlin's+Ole+Forest+Inn/@46.2175268,-85.7342245,15z/data=!4m2!3m1!1s0x0:0x4de1c775e05c3eb6?sa=X&ved=2ahUKEwiay6ye54LtAhVJVc0KHdbnA3IQ_BIwC3oECBQQBQ" target="_blank">N9450
+        Manistique Lakes Rd (aka Hwy 33)
+        Curtis, MI 49820</a><br>
+      <a class="footerlink" href="tel:906-586-6000">(906) 586-6000</a><br>
+      <a class="footerlink" href="https://www.facebook.com/Chamberlins-Ole-Forest-Inn-135289967434">For updates and more please check out our Facebook page! </a><i href="https://www.facebook.com/Chamberlins-Ole-Forest-Inn-135289967434"
+        class="fab fa-facebook footerlink"></i>
+    </h3>
+  </div>
+
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+</body>

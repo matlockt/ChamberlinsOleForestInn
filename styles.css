@@ -1,0 +1,175 @@
+/* General Styles */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+/* Navbar Styles */
+.navbar {
+  opacity: .85;
+  position: absolute;
+  width: 100%;
+  z-index: 5;
+}
+
+.navbar-brand {
+  padding-left: 7px;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navimg {
+  width: 60px;
+  height: 40px;
+}
+
+.nav-item {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navitems {
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+/* Slideshow Styles */
+#slides {
+  position: absolute;
+  list-style-type: none;
+}
+
+.slide {
+  position: absolute;
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: opacity 1s;
+  -moz-transition: opacity 1s;
+  -o-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+.slideimg {
+  object-fit: cover;
+  min-width: 100%;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slideimg1 {
+  object-position: 0 20%;
+}
+
+.slideimg2 {
+  object-position: 0 50%;
+}
+
+.slideimg3 {
+  object-position: 0 50%;
+}
+
+.slideimg4 {
+  object-position: 0 15%;
+}
+
+.slideimg5 {
+  object-position: 0 10%;
+}
+
+.slideimg6 {
+  object-position: 0 50%;
+}
+
+.slideimg7 {
+  object-position: 0 35%;
+}
+
+.slideimg8 {
+  object-position: 0 0;
+}
+
+.showing {
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  position: absolute;
+  z-index: 3;
+  bottom: 1%;
+  width: 100%;
+}
+
+.footerlink {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black, 2px 2px 2px black;
+  color: white;
+}
+
+.footerlink:hover {
+  color: black;
+  text-shadow: 1px 1px 2px white, 2px 2px 2px white;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navimg {
+    width: 40px;
+    height: 26px;
+  }
+
+  /* Slideshow */
+  .slideimg1 {
+    object-position: center;
+  }
+
+  .slideimg2 {
+    object-position: right;
+  }
+
+  .slideimg3 {
+    object-position: center;
+  }
+
+  .slideimg4 {
+    object-position: center;
+  }
+
+  .slideimg5 {
+    object-position: center;
+  }
+
+  .slideimg6 {
+    object-position: center;
+  }
+
+  .slideimg7 {
+    object-position: right;
+  }
+
+  .slideimg8 {
+    object-position: center;
+  }
+
+  /* Footer */
+  .footerlink {
+    font-size: .9rem;
+  }
+}

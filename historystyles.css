@@ -1,0 +1,169 @@
+/* General Styles */
+html {
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+body {
+  background-image: url("images/parchment-paper-cropped.jpg");
+  min-height: 100vh;
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Cormorant Unicase', serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: 'Cormorant Garmond', serif;
+}
+
+/* Navbar Styles */
+.navbar {
+  opacity: .85;
+  position: absolute;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.navbar-brand {
+  padding-left: 7px;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.navimg {
+  width: 60px;
+  height: 40px;
+}
+
+.nav-item {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navitems {
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+/* Page Divs */
+.history {
+  position: relative;
+  left: 35%;
+  background-color: #292b2c;
+  opacity: .85;
+  color: white;
+  padding-bottom: 50px;
+  width: 65%;
+}
+
+.history h1 {
+  padding-top: 5%;
+}
+
+.historytext {
+  padding: 6.5% 3% 0 3%;
+  opacity: 1;
+}
+
+.photo1 {
+  position: fixed;
+  top: 17%;
+  left: 5%;
+  width: 25%;
+}
+
+.photo2 {
+  position: fixed;
+  top: 55%;
+  left: 5%;
+  width: 25%;
+}
+
+/* Footer Styles */
+.container {
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.footer {
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #292b2c;
+}
+
+.footerlink {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black, 2px 2px 2px black;
+  color: white;
+}
+
+.footerlink:hover {
+  color: black;
+  text-shadow: 1px 1px 2px white, 2px 2px 2px white;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navimg {
+    width: 40px;
+    height: 26px;
+  }
+
+  /* Page Content */
+  h1 {
+    text-align: center;
+  }
+
+  .history {
+    position: static;
+    width: 100%;
+    margin-top: 5%;
+  }
+
+  .historytext {
+    padding: 2%;
+    opacity: 1;
+  }
+
+  .photo1 {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding-top: 18%;
+  }
+
+  .photo2 {
+    position: static;
+    width: 100%;
+    text-align: center;
+    padding-top: 5%;
+  }
+
+  /* Footer */
+  .footer {
+    height: 115px;
+  }
+
+  .footerlink {
+    font-size: .8rem;
+  }
+}

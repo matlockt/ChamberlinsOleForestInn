@@ -1,0 +1,161 @@
+/* General Styles */
+body {
+  background-image: url("images/chamberlins3.png");
+  background-position: 100% 80%;
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Navbar Styles */
+.navbar {
+  opacity: .85;
+  position: absolute;
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+}
+
+.navimg {
+  width: 60px;
+  height: 40px;
+}
+
+.navbar-brand {
+  padding-left: 7px;
+  font-family: 'Cormorant Unicase', serif;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.nav-item {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.navitems {
+  padding-right: 10px;
+  padding-top: 4px;
+}
+
+/* Page Sections */
+h1 {
+  font-size: 3rem;
+  font-family: 'Cormorant Unicase', serif;
+}
+
+/* Top Section Styles */
+.toptitle {
+  color: white;
+  text-shadow: 2px 2px 3px black, 3px 3px 3px black;
+  text-align: center;
+  padding-top: 20%;
+  width: 100%;
+}
+
+.top {
+  min-width: 100vw;
+  min-height: 70vh;
+}
+
+/* Middle Section Styles */
+.middle {
+  min-width: 100%;
+  background-color: white;
+  min-height: 100%;
+  padding: 4.25% 10%;
+  font-family: 'Cormorant Garmond', serif;
+  text-align: left;
+}
+
+.middle1 {
+  width: 50%;
+  margin: auto;
+}
+
+.additionalinfo {
+  padding-top: 1%;
+}
+
+.error {
+  color: #ff0000;
+}
+
+.submitform {
+  text-align: right;
+  padding-right: 1%
+}
+
+.btn {
+  font-family: 'Cormorant Garmond', serif;
+  margin: 0 2%;
+}
+
+/* Footer Styles */
+.footer {
+  position: relative;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #292b2c;
+}
+
+.footerlink {
+  font-family: 'Cormorant Garmond', serif;
+  font-size: 1rem;
+  text-shadow: 1px 1px 2px black, 2px 2px 2px black;
+  color: white;
+}
+
+.footerlink:hover {
+  color: black;
+  text-shadow: 1px 1px 2px white, 2px 2px 2px white;
+}
+
+/* Mobile View */
+@media only screen and (max-width: 1000px) {
+
+  /* General Styles */
+  body {
+    background-image: url("images/ChamberlinsOutside.png");
+    background-position: 40% -200px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  /* Navbar */
+  .navbar-brand {
+    font-size: 1rem;
+  }
+
+  .navimg {
+    width: 40px;
+    height: 26px;
+  }
+
+  /* Page Sections */
+  .toptitle {
+    color: white;
+    text-shadow: 3px 3px black;
+    text-align: center;
+    padding-top: 80%;
+    width: 100%;
+  }
+
+  .middle1 {
+    padding-top: 5%;
+    width: 100%;
+    margin: auto;
+  }
+
+  .bottom {
+    width: 85%;
+  }
+
+  .footerlink {
+    font-size: .8rem;
+  }
+}
