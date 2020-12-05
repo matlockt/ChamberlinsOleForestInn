@@ -155,13 +155,14 @@ p, ul {
 @media only screen and (max-width: 1000px) {
 
   /* General Styles */
-  body {
+   body {
     background-image: url("images/wedding1-2.jpg");
-    background-position: bottom;
-    background-size: auto;
-    background-attachment: fixed;
+    background-position: inherit;
+    background-size: inherit;
+    background-attachment: inherit;
     background-repeat: no-repeat;
   }
+
 
   h1 {
     padding-top: 35%;
