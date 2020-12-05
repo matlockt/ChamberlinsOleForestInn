@@ -62,10 +62,11 @@ p, ul {
 
 .toptitle {
   color: white;
-text-shadow: 2px 2px 3px black, 3px 3px 3px black;
+  text-shadow: 2px 2px 3px black, 3px 3px 3px black;
   text-align: center;
   padding-top: 20%;
   width: 100%;
+  
 }
 .top {
   min-width: 100vw;
@@ -204,11 +205,7 @@ top: -26%;
   }
 
   .toptitle {
-    color: white;
-    text-shadow: 3px 3px black;
-    text-align: center;
     padding-top: 50%;
-    width: 100%;
   }
 
   h1 {
