@@ -160,6 +160,7 @@ p, ul {
     background-position: 65% 360%;
     background-size: auto;
     background-attachment: fixed;
+    background-repeat: no-repeat;
   }
 
   h1 {
