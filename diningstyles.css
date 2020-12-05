@@ -140,6 +140,13 @@ p, ul {
 @media only screen and (max-width: 1000px) {
 
   /* General Styles */
+  body {
+  background-image: url("images/chamberlins8.png");
+  background-position: center;
+  background-size: auto;
+  background-attachment: inherit;
+  }
+  
   h1 {
     padding-top: 50%;
     font-size: 2.5rem;
